@@ -85,13 +85,13 @@ html {
 #main{
        width: 60vw;
        background-color: rgb(4, 166, 255);
-       height: 90vh;
+       height: auto;
        margin: 0 auto;
        border: 2px white solid;
         }
  #left{
        width: 30vw;
-       height: 90%;
+       height: auto;
        margin: 0 auto; 
        float: left;
        border: 2px white solid;
@@ -104,7 +104,7 @@ html {
 }
 #center { 
        width: 300px;
-       height: 450px;
+       height: auto;
        margin: 0 auto;
        border: 2px white solid;
        background-color: rgb(4, 166, 255);
