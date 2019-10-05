@@ -110,7 +110,7 @@ html {
        background-color: rgb(4, 166, 255);
         }
 /* Full-width input fields */
-#name, #deliveryAddress, #email, #addProductId, #addProductName, #addProductCategory, #addProductPrice, #addProductDescription {	
+input[type=text], input[type=number] {	
   width: 100%;	
   padding: 8px;	
   margin: 5px 0 12px 0;	
