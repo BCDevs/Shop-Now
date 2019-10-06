@@ -3,6 +3,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <head>
   <title>Shop NoW</title>
+<link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+  <link rel="manifest" href="./manifest.json">
   <link rel="stylesheet" href="index.css">
  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
@@ -67,6 +70,9 @@
  </div>
  <div id="log" style="text-align: center;"></div>
  <script>
+UpUp.start({
+    'content-url': 'offline.html'
+     });
 let modalBtn = document.getElementById("modal-btn")
 let modal = document.querySelector(".modal")
 let closeBtn = document.querySelector(".close-btn")
@@ -82,6 +88,7 @@ window.onclick = function(e){
   }
 }
 </script>
+<script src="./upup.min.js"></script>
 <script src="web3.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 <script src ="index.js"></script>	
